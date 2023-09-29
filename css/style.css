@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+
+div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+ul {
+  padding: 10px;
+  min-height: 150px;
+  border: 1px solid #bbb;
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 1.3rem;
+}
+
+.data-list li {
+  color: red;
+  cursor: pointer;
+}

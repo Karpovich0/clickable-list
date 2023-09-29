@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+ul {
+    padding: 10px;
+    min-height: 150px;
+    border: 1px solid #bbb;
+    list-style-type: none;
+    li {
+        font-size: 1.3rem;
+    }
+}
+.data-list {
+    li {
+        color: red;
+        cursor: pointer;
+    }
+}
